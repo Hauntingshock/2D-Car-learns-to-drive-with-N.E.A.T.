@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    background-color: darkgray;
+    overflow: hidden;
+    display: flex;
+}
+#myCanvas{
+    background-color: lightgray;
+    z-index: 1;
+}
+div{
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+}
