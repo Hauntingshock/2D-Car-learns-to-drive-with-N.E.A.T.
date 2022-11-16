@@ -4,7 +4,16 @@ const ctx = canvas.getContext('2d');
 
 let generation=1;
 
-const N=50;
+var N=20;
+
+
+
+
+// var N = document.getElementById("output").value;
+while(true){
+    console.log(this.value);
+    break;
+}
 const cars  = generateCars(N);
 const car = new Car(1000,1000,15,25,"AI")
 let bestCar=cars[0];
