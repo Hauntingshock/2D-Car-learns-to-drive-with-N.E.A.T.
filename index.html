@@ -2,19 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>car</title>
+    
 </head>
 <body>
+    
     <canvas id="myCanvas"></canvas>
+    
     <div>
     <button onclick="save()">💾</button>
     <button onclick="discard()">🗑️</button>
     <button onclick="nextGeneration()">Next Generation</button>
+    <p>
+        <span>INSTRUCTIONS</span><br><br>
+        Each Generation has 20 cars.<br><br>
+        1)Click on next generation button to start next generation of 20 cars.<br><br>
+        2)Click on 💾 button to save best car. Car with sensors will be the one saved<br><br>
+        3)Saved car can be discarded with the 🗑️ button<br><br>
+        4)Repeat until car can finish track without crashing.
+        </p>
     </div>
     <script src="p5.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
     <script src="network.js"></script>
     <script src="road.js"></script>
     <script src="sensor.js"></script>
