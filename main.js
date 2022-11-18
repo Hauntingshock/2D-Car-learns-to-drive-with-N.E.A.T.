@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 
 let generation=1;
 
-var N=20;
+var N=1000;
 
 
 
